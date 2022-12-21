@@ -1,0 +1,31 @@
+
+
+header{
+    background-color: rgb(246, 233, 220);
+}
+ /* section ke andar ke class */
+section.main-section{
+    background-color: bisque;
+}
+
+/* direct child selection */
+section.main-section > h2{            
+    color: rgb(15, 232, 15);
+}
+
+
+
+/* header ke ander ke paragraph */
+header p{              
+    color: red;
+}
+
+/* li ke ander ka a */
+li a{
+    color: blue;
+}
+
+/* aise paragraph jo direct h2 ke baad ate hai */
+h2+p{
+    color: rgba(151, 3, 122, 0.944);
+}

@@ -1,0 +1,13 @@
+body{
+     font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+}
+#main-heading{
+    background-color: rgba(137, 43, 226, 0.375);
+}
+.main-section{
+    background-color: blanchedalmond;
+}
+p{
+    color:brown;
+}
