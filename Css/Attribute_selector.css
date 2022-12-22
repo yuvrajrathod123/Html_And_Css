@@ -1,0 +1,21 @@
+input[type = "text"]{
+    color: blueviolet;
+}
+input[type = "password"]{
+    background-color: blanchedalmond;
+}
+
+
+/* jitne bhi link me google hai uske liye ye property hai */
+a[href *= "google"]{
+    color: brown;
+}
+
+ /* jo bhi https se start ho rhe honge */
+a[href ^= "https"]{
+    color:blueviolet;
+}
+   /* jo bhi com se end ho rhe honge */
+a[href $= "com"]{
+    color: rgb(30, 226, 19);
+}

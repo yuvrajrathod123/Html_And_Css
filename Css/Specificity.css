@@ -1,0 +1,29 @@
+
+
+/* specificity is : inline style attribute >  id selector > class selector > element selector */
+
+/* element selector */
+h1{
+    color: green;
+}
+
+
+/* class selector */
+
+.h1class{
+    color: red;
+}
+
+/* 0,0,1,0 */
+h1.heading{
+    color: rgb(90, 228, 26);
+}
+/* 0,0,1,1 */
+
+
+
+/* id selector */
+
+/* #h1id{
+    color: blueviolet;
+} */
