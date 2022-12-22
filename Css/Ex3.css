@@ -1,0 +1,36 @@
+body{
+    color: #444;
+    padding: 0px 40px;
+}
+
+nav{
+    /* border: 2px solid black; */
+    background-color: rgba(68, 68, 68, 0.293);
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+
+nav ul {
+    text-align:center;
+    
+
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    border-bottom: 2px solid #444;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+section{
+    
+    margin-top: 50px; ;
+}
+h2{
+    border-bottom: 1px solid black;
+}
