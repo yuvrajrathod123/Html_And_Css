@@ -1,0 +1,27 @@
+/* p:first-child{
+    color: brown;
+} */
+
+ /* jo bhi first honga parent ka */
+p:first-of-type{
+    color: red;
+}
+
+/* p:last-child{
+    color: blueviolet;
+} */
+
+p:last-of-type{
+    color: blue;
+}
+
+/* P:nth-child(2)-->  vo paragraph jo apne parent ka secon chlid hai */
+/* P:nth-child(2n)--> vo sab child jo 2 ke table me aaate hai(2, 4, 6, 8...) */
+P:nth-child(3n){
+    color: rgb(166, 19, 240);
+}
+
+
+p:nth-of-type(2){
+    color: rgb(249, 4, 208);
+}
