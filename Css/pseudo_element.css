@@ -1,0 +1,17 @@
+
+
+p::first-letter{
+    font-size: 32px;
+}
+
+p::selection{
+    background: #222;
+    color: white;
+}
+
+.cool::before{
+    display: block;
+    content: "hello guys ";
+    color: green;
+    border: 2px solid red;
+}

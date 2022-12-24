@@ -1,0 +1,19 @@
+/* :not(h1,class,id,selector) */
+
+
+
+/* body :not(p){
+    color: blue;
+} */
+
+/* div:empty{
+    background:#222;
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+} */
+
+:root{
+    background: #222;
+    color: #eee;
+}
