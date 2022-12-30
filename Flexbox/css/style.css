@@ -1,0 +1,40 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 10px solid black;
+    /* to make the flex container (box-wrapper flex container ban jayega)*/
+    display: flex;
+    /* height: 400px; */
+    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap:wrap; */
+
+    justify-content:flex-end;
+}
+
+.box{
+    border: 1px solid #666;
+    width: 300px;
+    
+}
+
+.box-1{
+    background: lightblue;
+}
+.box-2{
+    background: lightcoral;
+}
+.box-3{
+    background: lightgray;
+}
+.box-4{
+    background: lightsalmon;
+}
+.box-5{
+    background: lightpink;
+}
