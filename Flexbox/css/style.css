@@ -8,29 +8,34 @@ body{
     /* to make the flex container (box-wrapper flex container ban jayega)*/
     display: flex;
     /* height: 400px; */
-    flex-direction: row-reverse;
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
     /* flex-wrap:wrap; */
+    /* align-items: center; */
 
-    justify-content:flex-end;
+    /* justify-content:space-between; */
 }
 
 .box{
-    border: 1px solid #666;
-    width: 300px;
+    border: 1px solid #666;   
+        
+    flex-basis: 500px;
     
 }
 
 .box-1{
     background: lightblue;
+    /* order:3 */
 }
 .box-2{
     background: lightcoral;
+    /* align-self: stretch; */
+    /* order: 1; */
 }
 .box-3{
     background: lightgray;
+    /* order: 0; */
 }
 .box-4{
     background: lightsalmon;
