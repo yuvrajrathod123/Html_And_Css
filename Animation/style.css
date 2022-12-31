@@ -1,0 +1,90 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation:change-bg-color;
+    animation-duration: 5s;
+    /* animation-iteration-count: 3; */
+    /* animation ke baad jo hai vahi rhe */
+    animation-fill-mode: forwards;
+}
+
+@keyframes change-bg-color{
+    from{
+        background:black;
+    }
+    to{
+        background:greenyellow;
+    }
+}
+
+.box2{
+    width:15px;
+    height: 10px;
+    background: blue;
+    animation-name: grow-width;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+    animation-delay: 3s;
+}
+
+@keyframes grow-width{
+    from{
+        width: 0;
+    }
+    to{
+        width: 300px;
+    }
+}
+
+.box3{
+    width: 50px;
+    height: 50px;
+    background: lightsalmon;
+    border-radius: 50%;
+    position: relative;
+    /* animation-name: move-around;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 2s; */
+    /* thodi slow start hongi */
+    /* animation-timing-function: ease-in; */
+    /* thodi slow end hongi */
+    /* animation-timing-function: ease-out; */
+
+    animation: move-around 5s forwards 2s infinite ease-in;
+
+}
+
+@keyframes move-around{
+    0%{
+        top:0;
+        left: 0;
+        background: red;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+        background: blue;
+    }
+    50%{
+        top:300px;
+        left: 300px;
+        background: green;
+    }
+    60%{
+        background: violet;
+    }
+    75%{
+        top: 300px;
+        left: 0;
+        background: black;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background: yellowgreen;
+    }
+}
