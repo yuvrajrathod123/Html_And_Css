@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -17,8 +18,8 @@ li{
 .hamburger-menu input[type="checkbox"]{
     display: block;
     position: absolute;
-    top: 15px;
-    left: 5px;
+    top: 25px;
+    left: 15px;
     width:40px;
     height: 32px;
     z-index: 5;
@@ -30,8 +31,8 @@ li{
     height: 32px;
     /* background: lightcoral; */
     position: absolute;
-    top:18px;
-    left: 8px;
+    top:30px;
+    left: 20px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -64,8 +65,19 @@ li{
 }
 
 .menu-items li{
-    margin-bottom: 2rem;
-    font-size: 1.5rem;
+    /* border: 2px solid white; */
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+   
+}
+.menu-items a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-items li:hover{
+    background-color: rgba(42, 42, 219, 0.945);
 }
 
 .hamburger-menu input[type="checkbox"]:checked ~ .menu-items{
